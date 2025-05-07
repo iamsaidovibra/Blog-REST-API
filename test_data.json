@@ -1,0 +1,157 @@
+{
+    "users": [
+        {
+            "first_name": "Leo",
+            "last_name": "Tolstoy",
+            "username": "leo_tolstoy",
+            "email": "leo.tolstoy@example.com",
+            "password": "password123"
+        },
+        {
+            "first_name": "Fyodor",
+            "last_name": "Dostoevsky",
+            "username": "fyodor_dostoevsky",
+            "email": "fyodor.dostoevsky@example.com",
+            "password": "password123"
+        },
+        {
+            "first_name": "Jane",
+            "last_name": "Austen",
+            "username": "jane_austen",
+            "email": "jane.austen@example.com",
+            "password": "password123"
+        },
+        {
+            "first_name": "Mark",
+            "last_name": "Twain",
+            "username": "mark_twain",
+            "email": "mark.twain@example.com",
+            "password": "password123"
+        },
+        {
+            "first_name": "Ernest",
+            "last_name": "Hemingway",
+            "username": "ernest_hemingway",
+            "email": "ernest.hemingway@example.com",
+            "password": "password123"
+        }
+    ],
+    "articles": [
+        
+        {
+            "title": "War and Peace",
+            "content": "A historical novel.",
+            "author_username": "leo_tolstoy"
+        },
+        {
+            "title": "Anna Karenina",
+            "content": "Tragic love story.",
+            "author_username": "leo_tolstoy"
+        },
+        {
+            "title": "The Death of Ivan Ilyich",
+            "content": "Existential novella.",
+            "author_username": "leo_tolstoy"
+        },
+        {
+            "title": "Crime and Punishment",
+            "content": "Guilt and redemption.",
+            "author_username": "fyodor_dostoevsky"
+        },
+        {
+            "title": "The Brothers Karamazov",
+            "content": "Faith and doubt.",
+            "author_username": "fyodor_dostoevsky"
+        },
+        {
+            "title": "Notes from Underground",
+            "content": "First existentialist novel.",
+            "author_username": "fyodor_dostoevsky"
+        },
+        {
+            "title": "Pride and Prejudice",
+            "content": "Romantic novel of manners.",
+            "author_username": "jane_austen"
+        },
+        {
+            "title": "Emma",
+            "content": "Youthful hubris and love.",
+            "author_username": "jane_austen"
+        },
+        {
+            "title": "Sense and Sensibility",
+            "content": "Story of the Dashwood sisters.",
+            "author_username": "jane_austen"
+        },
+        {
+            "title": "The Adventures of Tom Sawyer",
+            "content": "Boyhood adventures.",
+            "author_username": "mark_twain"
+        },
+        {
+            "title": "Adventures of Huckleberry Finn",
+            "content": "Raft journey.",
+            "author_username": "mark_twain"
+        },
+        {
+            "title": "The Prince and the Pauper",
+            "content": "Boys switching lives.",
+            "author_username": "mark_twain"
+        },
+        {
+            "title": "The Old Man and the Sea",
+            "content": "Epic fishing struggle.",
+            "author_username": "ernest_hemingway"
+        },
+        {
+            "title": "A Farewell to Arms",
+            "content": "Love during World War I.",
+            "author_username": "ernest_hemingway"
+        },
+        {
+            "title": "For Whom the Bell Tolls",
+            "content": "Spanish Civil War novel.",
+            "author_username": "ernest_hemingway"
+        }
+    ],
+    "likes": [
+        {
+            "liker_username": "jane_austen",
+            "article_title": "War and Peace"
+        },
+        {
+            "liker_username": "mark_twain",
+            "article_title": "War and Peace"
+        },
+        {
+            "liker_username": "ernest_hemingway",
+            "article_title": "Crime and Punishment"
+        },
+        {
+            "liker_username": "leo_tolstoy",
+            "article_title": "The Old Man and the Sea"
+        }
+    ],
+    "comments": [
+        {
+            "commenter_username": "fyodor_dostoevsky",
+            "article_title": "War and Peace",
+            "content": "A monumental masterpiece!"
+        },
+        {
+            "commenter_username": "jane_austen",
+            "article_title": "War and Peace",
+            "content": "Vivid and moving!"
+        },
+        {
+            "commenter_username": "mark_twain",
+            "article_title": "The Old Man and the Sea",
+            "content": "Simple yet profound."
+        },
+        {
+            "commenter_username": "ernest_hemingway",
+            "article_title": "Pride and Prejudice",
+            "content": "Elegant writing!"
+        }
+    ]
+}
